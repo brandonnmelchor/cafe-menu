@@ -1,3 +1,9 @@
+@media screen and (max-width: 450px) {
+  body {
+    zoom: 70%;
+  }
+}
+
 body {
   text-align: center;
   background-image: url(https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg);
