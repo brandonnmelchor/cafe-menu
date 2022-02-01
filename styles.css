@@ -1,6 +1,7 @@
 body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-  font-family: sans-serif;
+  background-image: url(https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg);
+  background-size: cover;
+  font-family: montserrat;
   padding: 20px;
 }
 
@@ -14,10 +15,6 @@ h2 {
   font-size: 30px;
 }
 
-.established {
-  font-style: italic;
-}
-
 h1,
 h2,
 p {
@@ -26,9 +23,8 @@ p {
 
 .menu {
   width: 80%;
-  background-color: burlywood;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: whitesmoke;
+  margin: auto;
   padding: 20px;
   max-width: 500px;
 }
@@ -40,18 +36,13 @@ img {
 }
 
 hr {
-  height: 2px;
-  background-color: brown;
-  border-color: brown;
+  height: 4px;
+  border: 0;
+  background-color: #ffc9c9;
 }
 
 .bottom-line {
   margin-top: 25px;
-}
-
-h1,
-h2 {
-  font-family: Impact, serif;
 }
 
 .item p {
