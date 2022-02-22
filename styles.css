@@ -1,105 +1,84 @@
-@media (max-width: 450px) {
-  body {
-    zoom: 70%;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-@media (max-width: 400px) {
-  body {
-    zoom: 65%;
-  }
-}
-
-@media (max-width: 350px) {
-  body {
-    zoom: 50%;
-  }
-}
-
-@media (max-width: 300px) {
-  body {
-    zoom: 40%;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 0.5px solid gray; */
 }
 
 body {
-  text-align: center;
-  background-image: url(https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg);
-  background-size: 2500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 550px;
+  height: 100vh;
+  background-image: url(https://github.com/brandonnmelchor/FCC-Cafe-Menu/blob/main/background.png?raw=true);
   font-family: Montserrat;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
   padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px #00000040;
+  border-radius: 5px;
 }
 
 h1 {
   font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  letter-spacing: 2px;
 }
 
 h2 {
-  font-size: 30px;
   margin-bottom: 10px;
-}
-
-.menu {
-  width: 80%;
-  background-color: whitesmoke;
-  margin: auto;
-  padding: 20px;
-  min-width: 450px;
-  max-width: 500px;
+  font-size: 30px;
+  letter-spacing: 1.5px;
 }
 
 img {
+  display: block;
   height: 60px;
   width: 60px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
+  margin: 0px auto 15px;
 }
 
 hr {
-  height: 4px;
+  height: 3px;
+  margin: 20px 0px;
   border: 0;
   background-color: #ffc9c9;
 }
 
-.bottom-line {
-  margin-top: 25px;
+article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
 }
 
-.item p {
-  display: inline-block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  font-size: 18px;
+#desserts {
+  margin-top: 20px;
 }
-
-.flavor,
-.dessert {
-  text-align: left;
-  width: 74%;
-}
-
-.price {
-  text-align: right;
-  width: 25%;
-}
-
-/* FOOTER */
 
 footer {
   font-size: 14px;
 }
 
-.address {
-  margin-bottom: 5px;
+.brandonn {
+  margin-top: 10px;
 }
 
 a,
 a:visited,
 a:hover,
 a:active {
-  color: black;
+  color: inherit;
 }
