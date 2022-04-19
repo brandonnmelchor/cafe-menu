@@ -1,4 +1,4 @@
-# cafe-menu
+# Cafe Menu
 
 I created a simple Cafe Menu web page using vanilla HTML and CSS.
 
